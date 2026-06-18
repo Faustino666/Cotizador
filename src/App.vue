@@ -1,7 +1,13 @@
 <script setup>
-import encabezado from './components/encabezado.vue';
+import navBar from './components/layout/navBar.vue';
+import navCategorias from './components/layout/navCategorias.vue';
+import footeer from './components/layout/footeer.vue';
+import Catalogo from './views/Catalogo.vue';
 </script>
 
 <template>
-    <encabezado />
+    <navBar />
+    <navCategorias />
+    <RouterView />
+    <footeer />
 </template>
