@@ -1,7 +1,7 @@
 <script setup>
-import encabezado from './components/encabezado.vue';
+import navbarlogin from './components/layout/navbarlogin.vue';
 </script>
 
 <template>
-    <encabezado />
+    <navbarlogin/>
 </template>
