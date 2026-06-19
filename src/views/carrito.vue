@@ -11,9 +11,7 @@ const disminuir = (item) => { if (item.cantidad > 1) item.cantidad-- }
 const eliminar = (id) => { items.value = items.value.filter(i => i.id !== id) }
 const total = () => items.value.reduce((acc, i) => acc + i.precio * i.cantidad, 0)
 </script>
-
-Quita el fixed y el div exterior, y también tienes un div duplicado. Déjalo así:
-vue<template>
+<template>
   <div class="flex items-center justify-center min-h-screen bg-gray-100">
     <div class="bg-white rounded-xl shadow-2xl w-full max-w-lg overflow-hidden">
 
