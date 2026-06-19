@@ -1,3 +1,11 @@
+<script setup>
+import { ref } from 'vue'
+
+const email = ref('')
+const password = ref('')
+const showPassword = ref(false)
+</script>
+
 <template>
   <main class="rounded-b-lg bg-gray-50 flex flex-col items-center py-12 px-4">
    <h1 class="text-7xl font-bold bg-linear-to-r from-pink-700 via-blue-500 to-yellow-500 bg-clip-text text-transparent mb-8"
@@ -58,11 +66,3 @@
     </div>
   </main>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const email = ref('')
-const password = ref('')
-const showPassword = ref(false)
-</script>

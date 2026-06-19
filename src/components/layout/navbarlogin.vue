@@ -3,7 +3,7 @@ import { Wrench, User, Phone, BookOpen, ArrowRight } from 'lucide-vue-next'
 </script>
 
 <template>
-  <header class="w-full rounded-t-lg bg-white flex items-center justify-between px-8 py-3">
+  <header class="w-full rounded-t-lg bg-white flex items-center justify-between px-8 py-3 shadow">
     <a class="text-2xl cursor-pointer transition-colors hover:text-pink-700">PRINTEK</a>
 
     <nav class="flex items-center gap-7">
