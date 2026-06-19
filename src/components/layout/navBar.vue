@@ -3,7 +3,7 @@
     <nav class="flex items-center px-4 py-3 gap-4">
       
       <!-- Botón hamburguesa -->
-      <button @click="toggleMenu" class="hover:text-pink-700">
+      <button class="hover:text-pink-700">
         <Menu :size="24" />
       </button>
 
@@ -41,12 +41,5 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import { Menu, Search, User, ShoppingBag } from '@lucide/vue'
-import { inject } from 'vue';
-
-const isSidebarOpen = inject('isSidebarOpen')
-
-function toggleMenu() {
-  isSidebarOpen.value = !isSidebarOpen.value
-}
 
 </script>
