@@ -67,7 +67,7 @@ function handleRegister() {
         <label class="text-[11px] font-semibold text-gray-500 tracking-widest uppercase">
           Número teléfono
         </label>
-        <div class="flex border rounded-md overflow-hidden focus-within:border-pink-700 transition-colors">
+        <div class="flex border border-gray-200 rounded-md overflow-hidden focus-within:border-pink-700 transition-colors">
           <select
             v-model="codigoPais"
             class="bg-transparent border-transparent"
