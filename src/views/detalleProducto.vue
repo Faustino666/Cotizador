@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>Esta pagina esta en construccion</h1>
+    <div class="h-screen flex justify-center items-center">
+        <h1 class="text-2xl hover:text-pink-700">Se esta trabajando en este apartado</h1>
     </div>
 </template>
 

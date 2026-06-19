@@ -60,6 +60,7 @@
 </template>
 
 <script setup>
+import { RouterView } from 'vue-router'
 import { ref } from 'vue'
 
 const email = ref('')
