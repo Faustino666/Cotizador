@@ -29,9 +29,9 @@
         <RouterLink to="/login" class="hover:text-pink-700">
             <User :size="24" />
         </RouterLink>
-        <RouterLink to="/catalago/carrito" class="hover:text-pink-700">
+        <button class="hover:text-pink-700">
             <ShoppingBag :size="24"/>
-        </RouterLink>
+        </button>
       </div>
 
     </nav>
