@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
 
 const email = ref('')
@@ -57,7 +58,7 @@ const showPassword = ref(false)
 
       <p class="text-sm text-center text-gray-500">
         ¿Aún no te has registrado?
-        <a href="#" class="text-pink-700 font-medium hover:underline">Accede aquí</a>
+        <RouterLink to="/register" class="text-pink-700 font-medium hover:underline">Accede aquí</RouterLink>
       </p>
       <p class="text-sm text-center">
         <a href="#" class="text-pink-700 font-medium hover:underline">¿Has olvidado la contraseña?</a>
@@ -66,11 +67,3 @@ const showPassword = ref(false)
     </div>
   </main>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const email = ref('')
-const password = ref('')
-const showPassword = ref(false)
-</script>

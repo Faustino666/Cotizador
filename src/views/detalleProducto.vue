@@ -1,10 +1,14 @@
 <template>
-    <div class="h-screen flex justify-center items-center">
-        <h1 class="text-2xl hover:text-pink-700">Se esta trabajando en este apartado</h1>
-    </div>
+        <div class="min-h-screen flex flex-col items-center justify-center py-10 text-center">
+          <SearchX class="w-12 h-12 text-gray-300 mb-3" />
+          <p class="text-gray-500 font-medium">404 Page</p>
+          <p class="text-gray-400 text-sm mt-1">Aun se esta trabajando con esta pagina</p>
+        </div>
+   
 </template>
 
 <script setup>
+import { SearchX } from '@lucide/vue'
 
 </script>
 
