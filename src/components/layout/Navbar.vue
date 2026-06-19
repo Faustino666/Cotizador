@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="sticky top-0 z-50 bg-white border-b border-gray-200">
     <nav class="flex items-center px-4 py-3 gap-4">
       
       <!-- Botón hamburguesa -->
