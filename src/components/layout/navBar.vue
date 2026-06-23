@@ -28,9 +28,7 @@
 
       <!-- Iconos derecha -->
       <div class="flex items-center space-x-4">
-        <RouterLink to="/login" class="hover:text-pink-700">
-            <User :size="24" />
-        </RouterLink>
+        <userMenu />
         <RouterLink to="/catalago/carrito" class="hover:text-pink-700">
             <ShoppingBag :size="24"/>
         </RouterLink>
@@ -41,6 +39,7 @@
 </template>
 
 <script setup>
+import userMenu from './userMenu.vue';
 import { inject } from 'vue'
 import { RouterLink } from 'vue-router';
 import { Menu, Search, User, ShoppingBag } from '@lucide/vue'
