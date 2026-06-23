@@ -27,7 +27,7 @@
       </div>
 
       <!-- Iconos derecha -->
-      <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-6">
         <userMenu />
         <RouterLink to="/catalago/carrito" class="hover:text-pink-700">
             <ShoppingBag :size="24"/>
