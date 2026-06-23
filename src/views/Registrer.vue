@@ -22,7 +22,7 @@ function handleRegister() {
     </h1>
 
    
-<div class="bg-white rounded-xl border border-gray-200 shadow-sm p-0.5 w-full max-w-sm flex flex-col gap-7">
+<div class="bg-white rounded-xl border border-gray-200 shadow-sm p-8 w-110 flex flex-col gap-7">
 
   <div class="flex flex-col gap-1.5">
     <label class="text-[12px] font-semibold text-gray-500 tracking-widest uppercase">
@@ -97,7 +97,7 @@ function handleRegister() {
 
   <p class="text-sm text-center text-gray-500">
     ¿Ya te registraste?
-    <a href="#" class="text-pink-700 font-medium hover:underline">Accede aquí</a>
+    <RouterLink to="/login" class="text-pink-700 font-medium hover:underline">Accede aquí</RouterLink>
   </p>
 
 </div>
