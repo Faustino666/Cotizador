@@ -60,8 +60,9 @@ const showPassword = ref(false)
         ¿Aún no te has registrado?
         <RouterLink to="/register" class="text-pink-700 font-medium hover:underline">Accede aquí</RouterLink>
       </p>
-      <p class="text-sm text-center">
-        <a href="#" class="text-pink-700 font-medium hover:underline">¿Has olvidado la contraseña?</a>
+      <p class="text-sm text-center text-gray-500">
+        ¿No recuerdas tu contraseña?
+        <RouterLink to="/Recovery" class="text-pink-700 font-medium hover:underline">Accede aquí</RouterLink>
       </p>
 
     </div>
