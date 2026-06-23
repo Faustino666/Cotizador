@@ -8,7 +8,11 @@
       </button>
 
       <!-- Logo -->
-      <div class="text-2xl">PRINTEK</div>
+      <div class="text-2xl">
+        <RouterLink to="/historial/cotizaciones">
+          PRINTEK
+        </RouterLink>
+      </div>
 
       <!-- Buscador -->
       <div class="flex justify-center flex-1 mx-4">
