@@ -16,15 +16,13 @@
 
       <!-- Buscador -->
       <div class="flex justify-center flex-1 mx-4">
-        <div class="flex items-center border border-gray-300 rounded-lg px-4 py-2 focus-within:border-pink-700">
+        <div class="relative flex-1 max-w-sm">
+          <Search class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"/>
           <input
             type="text"
             placeholder="¿Que estas buscando?"
-            class="flex-1 focus:outline-none text-sm text-gray-600"
+            class="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-pink-300 bg-white"
           />
-          <button class="text-gray-400">
-            <Search :size="18" />
-          </button>
         </div>
       </div>
 

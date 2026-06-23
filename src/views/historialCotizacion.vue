@@ -9,20 +9,22 @@
                     v-model="busqueda"
                     type="text"
                     placeholder="Buscar Servicio..."
-                    class="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 fovus:ring-pink-300 bg-white">
+                    class="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-pink-300 bg-white">
                 </div>
                 <div class="flex gap-6 text-center">
-                    <p class="text-gray-500 text-sm mt-1 hover:text-pink-800 cursor-pointer">categoria</p>
-                    <p class="text-gray-500 text-sm mt-1 hover:text-pink-800 cursor-pointer">fecha</p>
-                    <p class="text-gray-500 text-sm mt-1 hover:text-pink-800 cursor-pointer" >| 35 cotizaciones </p>
+                    <p class="text-gray-500 text-sm mt-1 hover:text-pink-600 cursor-pointer">categoria</p>
+                    <p class="text-gray-500 text-sm mt-1 hover:text-pink-600 cursor-pointer">fecha</p>
+                    <p class="text-gray-500 text-sm mt-1 hover:text-pink-600 cursor-pointer" >| 1 cotizaciones </p>
                 </div>
             </section>
+            <historialcard />
         </div>
     </div>
 </template>
 
 <script setup>
 
+import historialcard from '../components/cotizador/historialcard.vue';
 import { Search } from 'lucide-vue-next';
 
 </script>
