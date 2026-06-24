@@ -72,14 +72,15 @@
 
 <script setup>
 import { inject } from 'vue'
-import { X, Home, LayoutGrid, LogIn, UserPlus } from '@lucide/vue'
+import { X, Home, LayoutGrid, LogIn, UserPlus, SquareUser} from '@lucide/vue'
 
 const isSidebarOpen = inject('isSidebarOpen')
 
 const links = [
-  { to: '/',        nombre: 'Inicio',    icono: Home },
-  { to: '/catalogo', nombre: 'Catálogo', icono: LayoutGrid },
-  { to: '/login',   nombre: 'Login',     icono: LogIn },
-  { to: '/register', nombre: 'Registro', icono: UserPlus },
+  { to: '/',         nombre: 'Inicio',          icono: Home },
+  { to: '/catalogo', nombre: 'Catálogo',        icono: LayoutGrid },
+  { to: '/login',    nombre: 'Login',           icono: LogIn },
+  { to: '/register', nombre: 'Registro',        icono: UserPlus },
+  { to: '/GesAdmin', nombre: 'Administrador',   icono: SquareUser },
 ]
 </script>
