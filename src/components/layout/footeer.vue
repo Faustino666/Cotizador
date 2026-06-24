@@ -3,7 +3,6 @@
   <footer class="bg-gray-900 text-gray-400 mt-16">
     <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-3 gap-8">
 
-      <!-- Marca -->
       <div>
         <h3 class="text-white text-lg font-bold mb-2">PRINTEK</h3>
         <p class="text-sm leading-relaxed">
@@ -11,7 +10,6 @@
         </p>
       </div>
 
-      <!-- Navegación -->
       <div>
         <h4 class="text-white text-sm font-semibold mb-3 uppercase tracking-wide">Servicios</h4>
         <ul class="space-y-2 text-sm">
@@ -26,17 +24,16 @@
         </ul>
       </div>
 
-      <!-- Contacto -->
       <div>
         <h4 class="text-white text-sm font-semibold mb-3 uppercase tracking-wide">Contacto</h4>
         <ul class="space-y-2 text-sm">
           <li class="flex items-center gap-2">
             <Phone class="w-4 h-4 flex-shrink-0" />
-            <span>+52 000 000 0000</span>
+            <span>+52 493 123 345</span>
           </li>
           <li class="flex items-center gap-2">
             <Mail class="w-4 h-4 flex-shrink-0" />
-            <span>contacto@printek.mx</span>
+            <span>Printek@gmail.com</span>
           </li>
           <li class="flex items-center gap-2">
             <MapPin class="w-4 h-4 flex-shrink-0" />
