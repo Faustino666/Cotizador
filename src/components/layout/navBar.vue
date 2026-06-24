@@ -9,7 +9,7 @@
 
       <!-- Logo -->
       <div class="text-2xl">
-        <RouterLink to="/historial/cotizaciones">
+        <RouterLink to="/GesAdmin">
           PRINTEK
         </RouterLink>
       </div>
