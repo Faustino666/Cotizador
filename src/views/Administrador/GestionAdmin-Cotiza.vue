@@ -204,11 +204,11 @@ const cambiarPagina = (p) => {
       </div>
 
       <!-- Paginación -->
-      <div v-if="totalPaginas > 1" class="flex items-center justify-center gap-1">
+      <div v-if="totalPaginas > 1" class="flex items-center justify-center gap-2">
         <button
           @click="cambiarPagina(paginaActual - 1)"
           :disabled="paginaActual === 1"
-          class="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 disabled:opacity-30 transition-colors"
+          class="p-2 rounded-lg border border-gray-200 disabled:opacity-30 hover:bg-gray-100 transition"
         >‹</button>
         <button
           v-for="p in totalPaginas"
@@ -216,15 +216,15 @@ const cambiarPagina = (p) => {
           @click="cambiarPagina(p)"
           :class="p === paginaActual
             ? 'bg-pink-600 text-white'
-            : 'text-gray-500 hover:bg-gray-100'"
-          class="w-8 h-8 rounded-lg text-sm font-semibold transition-colors"
+            : 'border border-gray-200 text-gray-600 hover:bg-gray-100'"
+          class="w-9 h-9 rounded-lg text-sm font-medium transition"
         >
           {{ p }}
         </button>
         <button
           @click="cambiarPagina(paginaActual + 1)"
           :disabled="paginaActual === totalPaginas"
-          class="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gray-100 disabled:opacity-30 transition-colors"
+          class="p-2 rounded-lg border border-gray-200 disabled:opacity-30 hover:bg-gray-100 transition"
         >›</button>
       </div>
 
