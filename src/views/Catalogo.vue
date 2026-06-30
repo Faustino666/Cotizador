@@ -142,8 +142,8 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import { Search, SearchX, X, ChevronLeft, ChevronRight } from '@lucide/vue'
-import CategoriaCard from '../components/cotizador/CategoriaCard.vue'
-import ProductoCard  from '../components/cotizador/ProductoCard.vue'
+import CategoriaCard from '../components/cotizador/categoriaCard.vue'
+import ProductoCard  from '../components/cotizador/productoCard.vue'
 import { categorias, productos } from '../data/productos'
 
 // ── Estado ──────────────────────────────────────────────────────────
