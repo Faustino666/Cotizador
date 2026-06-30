@@ -9,7 +9,7 @@ const routes = [
   { path: '/catalago/carrito', name: 'catalago-carrito', component: () => import('../views/carrito.vue')},
   { path: '/historial/cotizaciones', name: 'historial', component: () => import('../views/historialCotizacion.vue')},
   { path: '/recovery', name: 'recovery', component: () => import('../views/RecoveryPass.vue')},
-  { path: '/GesAdmin',      name: 'GesAdmin', component: () => import('../views/Administrador/GestionAdmin-Cotiza.vue') }
+  { path: '/gesAdmin',      name: 'gesAdmin', component: () => import('../views/Administrador/GestionAdmin-Cotiza.vue') }
 ]
 
 const router = createRouter({

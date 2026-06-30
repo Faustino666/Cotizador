@@ -50,6 +50,17 @@
           </li>
 
           <li class="border-t border-gray-100 mt-1 pt-1">
+            <RouterLink
+            to="/gesadmin"
+            @click="abierto = false"
+            class="w-full flex items-center gap-3 px-4 py-3 text-sm text-gray-700 hover:bg-pink-50 hover:text-pink-700 transition-colors"
+            >
+              <SquareUser class="w-4 h-4"/>
+              Administradoor
+            </RouterLink>
+          </li>
+
+          <li class="border-t border-gray-100 mt-1 pt-1">
             <button
               @click="abierto = false"
               class="w-full flex items-center gap-3 px-4 py-3 text-sm text-gray-700 hover:bg-pink-50 hover:text-pink-700 transition-colors"
@@ -69,7 +80,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { User, LogIn, LogOut, ClipboardList } from '@lucide/vue'
+import { User, LogIn, LogOut, ClipboardList, SquareUser } from '@lucide/vue'
 
 const abierto = ref(false)
 </script>
