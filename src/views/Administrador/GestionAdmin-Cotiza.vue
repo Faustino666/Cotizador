@@ -155,7 +155,7 @@ const cambiarPagina = (p) => {
           <div
             v-for="usuario in paginados"
             :key="usuario.id"
-            class="flex items-center gap-4 px-6 py-4 hover:bg-gray-50 transition-colors"
+            class="flex items-center gap-5 px-6 py-4 hover:bg-gray-50 transition-colors"
           >
             <!-- Avatar -->
             <div :class="`w-11 h-11 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 ${colorAvatar(usuario.id)}`">
